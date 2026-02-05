@@ -67,7 +67,7 @@ stripe listen --forward-to localhost:3001/api/stripe/webhook
 
 Production: Add webhook endpoint in Stripe Dashboard pointing to `/api/stripe/webhook`
 
-_Need help with Stripe integration? Check out our [blog articles on payment processing](https://practicaldev.online/blog)_
+For complete Stripe integration details, see our [Stripe Subscription Payment Guide](https://practicaldev.online/blog/node/stripe-subscription-payment-complete-guide).
 
 ## Test Cards
 
@@ -89,6 +89,33 @@ npm run db:generate  # Generate new migrations
 ## Learn & Contribute
 
 For in-depth tutorials and technical articles about SaaS development, Next.js, authentication, and payment integration, visit our [developer blog](https://practicaldev.online/blog).
+
+## Related Tutorials & Guides
+
+**Frontend & React:**
+
+- [React Hook Form + Zod Validation](https://practicaldev.online/blog/reactjs/react-hook-form-zod-validation-guide) - Form validation best practices
+- [TypeScript React Best Practices](https://practicaldev.online/blog/tools-services/typescript/typescript-react-best-practices) - Type-safe React development
+- [Next.js Caching & Rendering Guide](https://practicaldev.online/blog/nextjs/nextjs-caching-rendering-complete-guide) - Optimize performance and SEO
+- [TanStack Table React Implementation](https://practicaldev.online/blog/reactjs/tanstack-table-react-implementation) - Advanced data table solutions
+- [Redux Toolkit & RTK Query](https://practicaldev.online/blog/reactjs/redux-toolkit-rtk-query-guide) - State management patterns
+- [Next.js Server Actions](https://practicaldev.online/blog/nextjs/nextjs-server-actions-complete-guide) - Simplified server communication
+
+**Backend & API:**
+
+- [Express.js REST API Setup](https://practicaldev.online/blog/express/express-js-rest-api-setup) - API structure and best practices
+- [JWT Authentication in Express](https://practicaldev.online/blog/express/jwt-authentication-express-nodejs) - Secure user authentication
+- [Multer File Upload](https://practicaldev.online/blog/express/multer-file-upload-express) - Handle file uploads
+
+**Database & ORM:**
+
+- [Prisma ORM Complete Guide](https://practicaldev.online/blog/database/prisma-orm-complete-guide) - Database queries and migrations
+- [Sequelize ORM MySQL Setup](https://practicaldev.online/blog/database/sequelize-orm-mysql-setup) - Alternative ORM patterns
+
+**Authentication & Payments:**
+
+- [Stripe Subscription Payment Guide](https://practicaldev.online/blog/node/stripe-subscription-payment-complete-guide) - Complete payment flow integration
+- [Cloudinary Image Upload](https://practicaldev.online/blog/node/cloudinary-image-upload-nodejs) - Media file handling
 
 ## License
 
